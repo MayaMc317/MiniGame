@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraView : MonoBehaviour
+public class DestroyOutOfBounds : MonoBehaviour
 {
-    public GameObject Camera;
+    private float topBound = 50;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,9 +14,9 @@ public class CameraView : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        transform.position = Camera.transform.position + new Vector3(0, 5,0);
-
-        
+        if (transform.position.z > topBound) 
+        {
+            Destroy(gameObject);
+        }
     }
 }

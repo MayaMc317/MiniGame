@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class BullutPosition : MonoBehaviour
 {
-    public float horizontalInput;
+    public GameObject Bullet;
+    //private Vector3 offset = new Vector3(0,1,1);
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +15,6 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        horizontalInput = Input.GetAxis("Horizontal");
+        //transform.position = Bullet.transform.position + offset;
     }
 }
