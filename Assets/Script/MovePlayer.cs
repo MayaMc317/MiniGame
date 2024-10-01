@@ -8,10 +8,10 @@ public class MovePlayer : MonoBehaviour
     private float speed = 5.0f;
     private float turnSpeed;
     private float horizontalInput;
-    private float forwardInput;
+    //private float forwardInput;
 
-    private float leftBoundary = -48;
-    private float rightBoundary = 48f;
+    private float leftBoundary = -5;
+    private float rightBoundary = 5f;
 
     public GameObject projectilePrefab;
     
@@ -25,10 +25,10 @@ public class MovePlayer : MonoBehaviour
     void Update()
     {
         horizontalInput = Input.GetAxis("Horizontal");
-        forwardInput = Input.GetAxis("Vertical");
+        //forwardInput = Input.GetAxis("Vertical");
 
-       transform.Translate(Vector3.forward * Time.deltaTime * speed * horizontalInput); 
-       transform.Translate(Vector3.right * Time.deltaTime * speed * forwardInput);
+       //transform.Translate(Vector3.forward * Time.deltaTime * speed * forwardInput); 
+       transform.Translate(Vector3.right * Time.deltaTime * speed * horizontalInput);
        //transform.Rotate(Vector3.up * turnSpeed * horizontalInput * Time.deltaTime);
 
        if(transform.position.x < leftBoundary)
