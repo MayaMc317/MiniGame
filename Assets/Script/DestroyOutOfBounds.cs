@@ -6,6 +6,7 @@ using UnityEngine;
 public class DestroyOutOfBounds : MonoBehaviour
 {
     public GameObject gameover;
+    
     //private float topBound = 30;
     // Start is called before the first frame update
     void Start()
@@ -28,5 +29,9 @@ public class DestroyOutOfBounds : MonoBehaviour
             Time.timeScale = 0;
         }
 
+    }
+    public void DestroyEnemy()
+    {
+        Destroy(gameObject);
     }
 }

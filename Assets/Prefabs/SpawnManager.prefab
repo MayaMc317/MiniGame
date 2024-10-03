@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5115559658692795317}
-  - component: {fileID: 7893953842519050358}
+  - component: {fileID: 8165632618967465920}
   m_Layer: 0
   m_Name: SpawnManager
   m_TagString: Untagged
@@ -32,7 +32,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7893953842519050358
+--- !u!114 &8165632618967465920
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,9 +41,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 7254825014481863801}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f2d2d9d25a28644fbece87bb63de363, type: 3}
+  m_Script: {fileID: 11500000, guid: 413400527cd9fe5498b34cdbe25e7b50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cubePrefabs: {fileID: 0}
-  minimumSpawn: 0
-  maximumSpawn: 0
+  enemyPrefabs:
+  - {fileID: 295483595846653041, guid: 99e8f030489084e41a00fec8afe74e69, type: 3}
