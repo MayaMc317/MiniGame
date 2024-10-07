@@ -4,6 +4,7 @@ Description of game (50 words or less)
 This game is a 3D first person shooter where enemy cubes come in trying to get past you. Shoot  the cubes prevent them to get past you. 
 
 Controls
+
 use the arrow keys A and D to go left and right from your screen 
 use the left click button on your mouse to shoot
 
