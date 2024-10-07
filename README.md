@@ -14,8 +14,11 @@ Shoot at the cubes that pop up on your screen. You can not let the cubes get pas
 
 Dev Log 
 -Player moves left and right using the arrow keys and shoots a ball using the left click button on your mouse.
+
 -Boundaries are in place so the player and enemies will not fall off the map. 
+
 -Enemies will move towards you moesing in a straight line. 
+
 -A game over screen will pop up if the enemy happens to get pass the player and hits the wall behind the player stopping the game in the process. 
  
 Assets 
