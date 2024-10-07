@@ -5,8 +5,8 @@ This game is a 3D first person shooter where enemy cubes come in trying to get p
 
 Controls
 
-use the arrow keys A and D to go left and right from your screen 
-use the left click button on your mouse to shoot
+-use the arrow keys A and D to go left and right from your screen 
+-use the left click button on your mouse to shoot
 
 How to Play
 
